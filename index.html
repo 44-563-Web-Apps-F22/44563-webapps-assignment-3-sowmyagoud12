@@ -14,13 +14,11 @@
         <h1>Rajiv Gandhi International Airport</h1>
         <ol>
             <li>The following transit lines have routes that pass near Telangana State Archaeology Museum.</li>
-            <li>
-                <ol>
+                    <ol>
                     <li>Bus</li>
                     <li>Metro</li>
                     <li>Taxi</li>
             </ol>
-        </li>
             <li>We can book a cab from airport directly. the distance is 12km from the airport.</li>
             <li>Metro route to see step by step directions with maps, line arrival times and updated time schedules.</li>
         </ol>
@@ -32,6 +30,49 @@
             <li>Falaknama palace</li>
         </ul>
         <a href="aboutme.html">About Me</a>
-        
+        <hr>
+        <h1>Cities to visit</h1>
+        <p>The below cities are most popular cities in India. Here we can vist lot of historical places</p>
+        <table>
+        <tr>
+            <th>Name of the city</th>
+            <th>Location</th>
+            <th>Time Spent</th>
+        </tr>
+        <tr>
+        <td>Hyderabad</td>
+        <td>Birla Mandir</td>
+        <td>1 day</td>
+        </tr>
+        <tr>
+            <td>Pune</td>
+            <td>Lonawala</td>
+            <td>3 days</td>
+        </tr>
+        <tr><td>Chennai</td>
+        <td>Golden Beach</td>
+        <td>1 day</td>
+        </tr>
+        <tr>
+            <td>Bombay</td>
+            <td>Gateway of India</td>
+            <td>1 day</td>
+        </tr>
+        </table>
+        <hr>
+        <h1>Code Fencing</h1>
+        <blackquote>
+            Exclude category from this loop
+        </blackquote>
+        <a href="https://stackoverflow.com/questions/57672397/exclude-category-from-this-loop">Solution Link</a>
+<pre>
+    <?php query_posts('cat=-3'); ?>
+
+    <?php if (have_posts()) : ?>
+    <?php while (have_posts()) : the_post(); ?>
+      <h3></h3>	
+      <p><?php the_time('F jS, Y') ?></p>
+      <?php the_content(); ?>
+    <?php endwhile; ?></pre>
         </body>
 </html>
